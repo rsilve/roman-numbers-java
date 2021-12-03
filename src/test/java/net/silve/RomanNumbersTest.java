@@ -66,4 +66,10 @@ class RomanNumbersTest {
         assertEquals("XV", roman);
     }
 
+    @Test
+    void shouldReturnXIXfor19() {
+        String roman = RomanNumbers.encode(19);
+        assertEquals("XIX", roman);
+    }
+
 }
