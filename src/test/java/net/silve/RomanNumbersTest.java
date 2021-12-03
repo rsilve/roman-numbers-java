@@ -128,4 +128,16 @@ class RomanNumbersTest {
         assertEquals("M", roman);
     }
 
+    @Test
+    void shouldReturnCMfor900() {
+        String roman = RomanNumbers.encode(900);
+        assertEquals("CM", roman);
+    }
+
+    @Test
+    void shouldReturnXMfor990() {
+        String roman = RomanNumbers.encode(990);
+        assertEquals("XM", roman);
+    }
+
 }
