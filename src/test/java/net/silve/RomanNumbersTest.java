@@ -103,5 +103,12 @@ class RomanNumbersTest {
     }
 
 
+    @Test
+    void shouldReturnDfor500() {
+        String roman = RomanNumbers.encode(500);
+        assertEquals("D", roman);
+    }
+
+
 
 }
