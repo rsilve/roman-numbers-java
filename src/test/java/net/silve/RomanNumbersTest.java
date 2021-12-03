@@ -12,4 +12,10 @@ class RomanNumbersTest {
         assertEquals("I", roman);
     }
 
+    @Test
+    void shouldReturnIIfor2() {
+        String roman = RomanNumbers.encode(2);
+        assertEquals("II", roman);
+    }
+
 }
