@@ -15,7 +15,10 @@ public class RomanNumbers {
                 .replace("XXXX", "XL")
                 .replace("LL", "C")
                 .replace("LXL", "XC")
-                .replace("CCCCC", "D");
+                .replace("CCCCC", "D")
+                .replace("CCCC", "CD")
+                .replace("CDXC", "XD")
+                ;
     }
 
 

@@ -109,6 +109,18 @@ class RomanNumbersTest {
         assertEquals("D", roman);
     }
 
+    @Test
+    void shouldReturnDfor400() {
+        String roman = RomanNumbers.encode(400);
+        assertEquals("CD", roman);
+    }
+
+    @Test
+    void shouldReturnDfor490() {
+        String roman = RomanNumbers.encode(490);
+        assertEquals("XD", roman);
+    }
+
 
 
 }
