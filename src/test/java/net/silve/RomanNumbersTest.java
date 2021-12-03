@@ -122,5 +122,10 @@ class RomanNumbersTest {
     }
 
 
+    @Test
+    void shouldReturnMfor1000() {
+        String roman = RomanNumbers.encode(1000);
+        assertEquals("M", roman);
+    }
 
 }
