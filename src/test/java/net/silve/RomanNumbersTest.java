@@ -18,4 +18,10 @@ class RomanNumbersTest {
         assertEquals("II", roman);
     }
 
+    @Test
+    void shouldReturnIVfor4() {
+        String roman = RomanNumbers.encode(4);
+        assertEquals("IV", roman);
+    }
+
 }
