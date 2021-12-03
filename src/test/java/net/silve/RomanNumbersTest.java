@@ -84,4 +84,11 @@ class RomanNumbersTest {
         assertEquals("L", roman);
     }
 
+    @Test
+    void shouldReturnXLfor40() {
+        String roman = RomanNumbers.encode(40);
+        assertEquals("XL", roman);
+    }
+
+
 }
