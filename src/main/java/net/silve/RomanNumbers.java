@@ -21,6 +21,7 @@ public class RomanNumbers {
                 .replace("DD", "M")
                 .replace("DCD", "CM")
                 .replace("DXD", "XM")
+                .replace("CML", "LM")
                 ;
     }
 
