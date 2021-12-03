@@ -30,4 +30,28 @@ class RomanNumbersTest {
         assertEquals("V", roman);
     }
 
+    @Test
+    void shouldReturnVIfor6() {
+        String roman = RomanNumbers.encode(6);
+        assertEquals("VI", roman);
+    }
+
+    @Test
+    void shouldReturnIXfor9() {
+        String roman = RomanNumbers.encode(9);
+        assertEquals("IX", roman);
+    }
+
+    @Test
+    void shouldReturnXfor10() {
+        String roman = RomanNumbers.encode(10);
+        assertEquals("X", roman);
+    }
+
+    @Test
+    void shouldReturnXIfor11() {
+        String roman = RomanNumbers.encode(11);
+        assertEquals("XI", roman);
+    }
+
 }
