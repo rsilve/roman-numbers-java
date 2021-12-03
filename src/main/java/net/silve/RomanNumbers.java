@@ -12,7 +12,8 @@ public class RomanNumbers {
                 .replace("VIX", "XIV")
                 .replace("VX", "XV")
                 .replace("XXXXX", "L")
-                .replace("XXXX", "XL");
+                .replace("XXXX", "XL")
+                .replace("LL", "C");
     }
 
 

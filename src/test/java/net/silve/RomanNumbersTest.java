@@ -90,5 +90,11 @@ class RomanNumbersTest {
         assertEquals("XL", roman);
     }
 
+    @Test
+    void shouldReturnCfor100() {
+        String roman = RomanNumbers.encode(100);
+        assertEquals("C", roman);
+    }
+
 
 }
