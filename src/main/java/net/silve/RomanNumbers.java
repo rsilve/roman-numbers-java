@@ -9,7 +9,8 @@ public class RomanNumbers {
                 .replace("IVI", "V")
                 .replace("VVI", "IX")
                 .replace("IXI", "X")
-                .replace("VIX", "XIV");
+                .replace("VIX", "XIV")
+                .replace("VX", "XV");
     }
 
 

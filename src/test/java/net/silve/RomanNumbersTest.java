@@ -55,9 +55,15 @@ class RomanNumbersTest {
     }
 
     @Test
-    void shouldReturnXVfor14() {
+    void shouldReturnXIVfor14() {
         String roman = RomanNumbers.encode(14);
         assertEquals("XIV", roman);
+    }
+
+    @Test
+    void shouldReturnXVfor15() {
+        String roman = RomanNumbers.encode(15);
+        assertEquals("XV", roman);
     }
 
 }
