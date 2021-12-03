@@ -24,4 +24,10 @@ class RomanNumbersTest {
         assertEquals("IV", roman);
     }
 
+    @Test
+    void shouldReturnVfor5() {
+        String roman = RomanNumbers.encode(5);
+        assertEquals("V", roman);
+    }
+
 }
