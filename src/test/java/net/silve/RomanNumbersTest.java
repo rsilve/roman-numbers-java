@@ -96,5 +96,12 @@ class RomanNumbersTest {
         assertEquals("C", roman);
     }
 
+    @Test
+    void shouldReturnXCfor90() {
+        String roman = RomanNumbers.encode(90);
+        assertEquals("XC", roman);
+    }
+
+
 
 }
